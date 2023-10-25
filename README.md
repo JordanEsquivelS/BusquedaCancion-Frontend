@@ -32,7 +32,7 @@ Sigue estos pasos para configurar y ejecutar el proyecto en tu máquina local:
 
 3. **Obtener claves secretas de RapidAPI**:
 
-   Obtener claves secretas de RapidAPI: Antes de comenzar, necesitas obtener las claves secretas de RapidAPI para que tu aplicación pueda acceder a la API de Spotify. Sigue estos pasos:
+   Antes de comenzar, necesitas obtener las claves secretas de RapidAPI para que tu aplicación pueda acceder a la API de Spotify. Sigue estos pasos:
 
    - Ve al sitio web de RapidAPI. `https://rapidapi.com/Glavier/api/spotify23`
    - Regístrate o inicia sesión en tu cuenta de RapidAPI.
