@@ -8,6 +8,7 @@ function MusicSearch(props) {
   const [isLoading, setIsLoading] = useState(false);
   const [hasSearched, setHasSearched] = useState(false);
   const [selectedAlbumUri, setSelectedAlbumUri] = useState(null);
+  const [inputValue, setInputValue] = useState("");
   const inputRef = useRef(null);
 
   useEffect(() => {
@@ -46,7 +47,7 @@ function MusicSearch(props) {
       const query = inputRef.current.value;
       await props.handleSearchResults(query);
       setHasSearched(true);
-      inputRef.current.value = "";
+      setInputValue("");
     } catch (error) {
       console.error("Error en la búsqueda:", error);
     } finally {
@@ -59,6 +60,10 @@ function MusicSearch(props) {
     handleSearch();
   };
 
+  const handleInputChange = (event) => {
+    setInputValue(event.target.value);
+  };
+
   return (
     <main className="musicSearch">
       <h2 className="musicSearch__title"> Busca tu artista favorito</h2>
@@ -69,8 +74,14 @@ function MusicSearch(props) {
           type="text"
           placeholder="Nombre del Artista o Album"
           maxLength={28}
+          value={inputValue}
+          onChange={handleInputChange}
         />
-        <button className="music-search__button" type="submit">
+        <button
+          className="music-search__button"
+          type="submit"
+          disabled={inputValue.length < 3}
+        >
           Buscar
         </button>
       </form>
