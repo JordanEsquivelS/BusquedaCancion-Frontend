@@ -17,6 +17,8 @@ Con esta aplicación, podrás buscar y descubrir álbumes de tus artistas favori
 - **Manejo de Errores con Estilo**: Si la búsqueda no da resultados, te lo haremos saber con un amigable mensaje de error.
 
 - **Página "Acerca de"**: En la página "Acerca de", te contamos la historia detrás del proyecto y te presentamos a Jordan Esquivel, el creador.
+  
+- **Gestión de Datos Eficiente**: Al realizar una búsqueda, los datos se actualizan en la variable de estado y se almacenan localmente para una experiencia fluida. Se utiliza un hook personalizado para renderizar y mantener los datos de manera eficiente.
 
 ## Pasos de instalación
 
