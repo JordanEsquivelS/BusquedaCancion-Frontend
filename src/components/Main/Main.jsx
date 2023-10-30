@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Main.css";
 
 function Main() {
@@ -14,9 +15,11 @@ function Main() {
           No te pierdas lo mejor de la buena música, todo de forma gratuita.
           ¡Con BestMusicPe, déjate llevar por la melodia!
         </p>
-        <button className="main-content__button-to-search">
-          Explora tu música aquí
-        </button>
+        <Link to="/search">
+          <button className="main-content__button-to-search">
+            Explora tu música aquí
+          </button>
+        </Link>
       </div>
       <div className="main-content__image-container">
         <img
