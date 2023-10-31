@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/BusquedaCancion-Frontend/static/css/main.ccc75812.css",
-    "main.js": "/BusquedaCancion-Frontend/static/js/main.33b35689.js",
+    "main.js": "/BusquedaCancion-Frontend/static/js/main.48bced40.js",
     "static/js/496.d067561f.chunk.js": "/BusquedaCancion-Frontend/static/js/496.d067561f.chunk.js",
     "static/media/music_main.png": "/BusquedaCancion-Frontend/static/media/music_main.24d6d33d709c707cf5ea.png",
     "static/media/Inter-SemiBold.woff": "/BusquedaCancion-Frontend/static/media/Inter-SemiBold.cca62d21c8c555c392e5.woff",
@@ -15,11 +15,11 @@
     "static/media/error-info.svg": "/BusquedaCancion-Frontend/static/media/error-info.d4ce2a261b68c6da973d51ef98afae1a.svg",
     "index.html": "/BusquedaCancion-Frontend/index.html",
     "main.ccc75812.css.map": "/BusquedaCancion-Frontend/static/css/main.ccc75812.css.map",
-    "main.33b35689.js.map": "/BusquedaCancion-Frontend/static/js/main.33b35689.js.map",
+    "main.48bced40.js.map": "/BusquedaCancion-Frontend/static/js/main.48bced40.js.map",
     "496.d067561f.chunk.js.map": "/BusquedaCancion-Frontend/static/js/496.d067561f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ccc75812.css",
-    "static/js/main.33b35689.js"
+    "static/js/main.48bced40.js"
   ]
 }
